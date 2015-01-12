@@ -1,0 +1,77 @@
+/* Resets */
+
+html, body, h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+	font-family: "chapparalItalic" ;
+	src:url(ChaparralPro-Italic.otf);
+}
+
+
+body {
+	background: white;
+	color: #000000;
+}
+
+.box {
+	text-align: middle;
+	font-weight: italic;
+	background: white;	
+}
+
+.boxLTop {
+    width: 500px;
+	height: 140px;
+	float:right;
+	margin: 0px 0px 0px 300px;
+}
+.boxRTop{
+	width: 500px;
+	height: 140px;
+	float:left;
+	margin: 0px 0px 0px 0px;
+}
+.boxLeft {
+	width: 500px;
+	height: 140px;
+	float:right;
+	margin: 0px 0px 0px 300px;
+}
+.boxRight {
+	width: 500px;
+	height: 140px;
+	float:left;
+	margin: 0px 0px 0px 0px;
+
+}
+.boxTitel {
+	width: 500px;
+	height: 50px;
+	text-align: middle;
+
+	margin:0px auto 0px auto;
+
+}
+.text {
+	
+	text-align: middle;
+	font-size: 15px;
+	font-family:chapparalItalic;
+}
+.textLeft{
+	margin:28px 70px 70px 200px;
+}
+
+.textRight{
+	margin:28px 200px 70px 70px;
+}
+
+.textTitel {
+	margin:0px 180px 0px 180px;
+	text-align: middle;
+	font-size: 9px;
+	font-family:chapparalItalic;
+}

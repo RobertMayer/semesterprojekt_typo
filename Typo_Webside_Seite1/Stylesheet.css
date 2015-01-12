@@ -10,6 +10,12 @@ html, body, h1, h2, h3 {
 	src:url(ChaparralPro-Italic.otf);
 }
 
+a, a:link, a:visited, a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {text-decoration: underline;}
 
 body {
 	background: white;
